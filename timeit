@@ -1,15 +1,15 @@
 import numpy as np
 def createList(size):
-myList=[]
-for i in range(size):
-myList.append(i)
-return myList
+  myList=[]
+    for i in range(size):
+      myList.append(i)
+    return myList
 def listIncrement(l,n):
-myL=[]
-for i in range(len(l)):
-#l[i]=l[i]+n
-l[i]=l[i]+n
-return myL
+  myL=[]
+  for i in range(len(l)):
+      #l[i]=l[i]+n
+      l[i]=l[i]+n
+  return myL
 L_1=createList(5)
 L_1
 L_2=listIncrement(L_1,5)
