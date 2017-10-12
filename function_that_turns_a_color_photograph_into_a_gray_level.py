@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy
 
-img_1 = plt.imread(r'C:\Users\BM\Desktop\1.jpg')
+img_1 = plt.imread(r'C:\Users\ugur\Desktop\test.jpg')
 
 def convert(RGB_Pixel):
     return RGB_Pixel[0]/3 + RGB_Pixel[1]/3 + RGB_Pixel[2]/3
@@ -29,7 +29,7 @@ plt.show()
 
 
 #------------------------------------------
-#fonksiyonun düzenli hali
+#fonksiyonun düzenli hali--->
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -49,13 +49,13 @@ def  convertRGB_to_GrayLevel(image_1):
 convertRGB_to_GrayLevel(r'C:\Users\ugur\Desktop\test_10.jpg')
 
 
--------------------------------------
-iki resimdeki farkları bulma
+#-------------------------------------
+#iki resimdeki farkları bulma--->
 
 import matplotlib.pyplot as plt
 
-img_1 = plt.imread(r'C:\Users\BM\Desktop\var.jpg')
-img_2 = plt.imread(r'C:\Users\BM\Desktop\yok.jpg')
+img_1 = plt.imread(r'C:\Users\ugur\Desktop\var.jpg')
+img_2 = plt.imread(r'C:\Users\ugur\Desktop\yok.jpg')
 plt.imshow(img_2-img_1)
 plt.show()
 
