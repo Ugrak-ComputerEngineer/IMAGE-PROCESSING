@@ -1,1 +1,1 @@
-Python Numpy Kütüphanesi Kullanılarak timeit fonksiyonunun testi
+Python Numpy Kütüphanesi Kullanılarak Görüntü İşleme Konusundaki fonksiyonlar
