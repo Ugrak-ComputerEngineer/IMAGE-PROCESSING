@@ -41,15 +41,11 @@ def my_Dilation(img_1,mask):
 image = r'C:\Users\ugur\GÖRÜNTÜ İŞLEME\u.jpg'
 image_bw = convert_RGB_to_monochrome_BW(image)
 image_mask = my_Dilation(image_bw,define_mask())
+1 1 1 
+1 1 1 
+1 1 1 
 
 
-
-
-
-
-
-
-
-
-
-
+plt.subplot(1,2,1) , plt.imshow(image_bw , cmap="gray") #BW Resim
+plt.subplot(1,2,2) , plt.imshow(image_mask , cmap="gray") #Genişletilmiş Resim
+plt.show()
